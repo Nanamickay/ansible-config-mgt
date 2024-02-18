@@ -1,6 +1,6 @@
 ---
--name: ping all hosts
+-name: Ping all hosts
  hosts: all
  tasks:
-  - name: ping test
+  - name: Ping test
     ping:
